@@ -22,6 +22,15 @@ body,html{
 	}
 }
 
+@media (-webkit-min-device-pixel-ratio:3),(min-device-pixel-ratio:3){
+	.border-1px{
+		&::after,&::before{
+			-webkit-transform: scaleY(0.33);
+			transform: scaleY(0.33);
+		}
+	}
+}
+
 .clearfix{
 	display: inline-block;
 	&:after{
