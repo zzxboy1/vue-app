@@ -81,15 +81,15 @@ node prod.server
 
 # 项目布局
 ```
-|-- build                            // webpack配置文件
-|-- config                           // 项目打包路径
-|-- dist                           	 // 项目编译打包目录
-|-- resource                         // 标注了尺寸的设计图、图标、SVG等文件
-|-- src  							 // 项目源文件		
-|	|-- common						 // 公共库
-|		|-- fonts                    // 字体文件
-|		|-- js     					 // 公共js文件
-|			|-- date.js              // 日期计算模块
+|-- build								// webpack配置文件
+|-- config								// 项目打包路径
+|-- dist								// 项目编译打包目录
+|-- resource							// 标注了尺寸的设计图、图标、SVG等文件
+|-- src									// 项目源文件		
+|	|-- common								// 公共库
+|		|-- fonts							// 字体文件
+|		|-- js								// 公共js文件
+|			|-- date.js								// 日期计算模块
 |			|-- store.js             // localStorege处理模块
 |			|-- util.js              // search参数获取组件
 |		|-- sass     				 // 公共样式文件
@@ -140,27 +140,27 @@ node prod.server
 
 ## 商品页
 
-<img src="https://zzxboy1.github.io/vue-app/resouce/shangpin.jpg" width="350" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/shangpin.jpg" width="350" height="668"/>
 
 ## 公告页
 
-<img src="https://zzxboy1.github.io/vue-app/resouce/bulletin.jpg" width="350" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/bulletin.jpg" width="350" height="668"/>
 
 ## 购物车
 
-<img src="https://zzxboy1.github.io/vue-app/resouce/shopCart.jpg" width="350" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/shopCart.jpg" width="350" height="668"/>
 
 
 ## 评价页
 
-<img src="https://zzxboy1.github.io/vue-app/resouce/rating.jpg" width="350" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/rating.jpg" width="350" height="668"/>
 
 
 ## 商品详情页
 
-<img src="https://zzxboy1.github.io/vue-app/resouce/detail.jpg" width="350" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/detail.jpg" width="350" height="668"/>
 
 
 ## 商家页
 
-<img src="https://zzxboy1.github.io/vue-app/resouce/seller.jpg" width="350" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/seller.jpg" width="350" height="668"/>
