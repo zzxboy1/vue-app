@@ -81,46 +81,46 @@ node prod.server
 
 # 项目布局
 ```
-|-- build								             // webpack配置文件
-|-- config								           // 项目打包路径
-|-- dist								             // 项目编译打包目录
-|-- resource							           // 标注了尺寸的设计图、图标、SVG等文件
-|-- src									             // 项目源文件		
-|	|-- common							           // 公共库
-|		|-- fonts						             // 字体文件
-|		|-- js							             // 公共js文件
-|			|-- date.js				           	 // 日期计算模块
-|			|-- store.js                   // localStorege处理模块
-|			|-- util.js                    // search参数获取组件
-|		|-- sass     				             // 公共样式文件
-|			|-- base.scss                  // 基础样式（包括border处理、清浮动）
-|			|-- icon.scss                  // 字体图标样式
-|			|-- index.scss                 // 公共样式入口文件
-|			|-- mixin.scss                 // mixin模块
-|   |-- components                   // 组件
-|       |-- cartcontrol              // 商品购买数量控制组件
-|       |-- food                     // 商品详情组件
-|       |-- goods                    // 商品列表组件
-|       |-- header                   // 头部组件
-|       |-- ratings                  // 评论列表组件
-|       |-- ratingselect             // 评论切换组件
-|       |-- seller                   // 商家组件
-|       |-- shopCart                 // 购物车组件
-|       |-- split                    // 分割栏组件
-|       |-- star                     // 评论的五颗星组件
-|   |-- App.vue                      // 页面入口文件
-|   |-- main.js                      // 程序入口文件，加载各种公共组件
-|-- static                           // 静态文件目录
-|-- .babelrc                         // babel配置文件
-|-- .eslintignore                    // eslint忽视文件
-|-- .eslintrc                        // ES6语法编译配置
-|-- .editorconfig                    // 代码编写规格
-|-- .gitignore                       // git忽略的文件
-|-- data.json                        // 商家数据文件
-|-- index.html                       // 入口html文件
-|-- package.json                     // 项目及工具的依赖配置文件
-|-- prod.server.js                   // 线上版本server配置
-|-- README.md                        // 说明
+|-- build                                            // webpack配置文件
+|-- config                                           // 项目打包路径
+|-- dist                                             // 项目编译打包目录
+|-- resource                                         // 标注了尺寸的设计图、图标、SVG等文件
+|-- src                                              // 项目源文件		
+|	|-- common                                         // 公共库
+|		|-- fonts                                        // 字体文件
+|		|-- js                                           // 公共js文件
+|			|-- date.js                                    // 日期计算模块
+|			|-- store.js                                   // localStorege处理模块
+|			|-- util.js                                    // search参数获取组件
+|		|-- sass                                         // 公共样式文件
+|			|-- base.scss                                  // 基础样式（包括border处理、清浮动）
+|			|-- icon.scss                                  // 字体图标样式
+|			|-- index.scss                                 // 公共样式入口文件
+|			|-- mixin.scss                                 // mixin模块
+|   |-- components                                   // 组件
+|       |-- cartcontrol                              // 商品购买数量控制组件
+|       |-- food                                     // 商品详情组件
+|       |-- goods                                    // 商品列表组件
+|       |-- header                                   // 头部组件
+|       |-- ratings                                  // 评论列表组件
+|       |-- ratingselect                             // 评论切换组件
+|       |-- seller                                   // 商家组件
+|       |-- shopCart                                 // 购物车组件
+|       |-- split                                    // 分割栏组件
+|       |-- star                                     // 评论的五颗星组件
+|   |-- App.vue                                      // 页面入口文件
+|   |-- main.js                                      // 程序入口文件，加载各种公共组件
+|-- static                                           // 静态文件目录
+|-- .babelrc                                         // babel配置文件
+|-- .eslintignore                                    // eslint忽视文件
+|-- .eslintrc                                        // ES6语法编译配置
+|-- .editorconfig                                    // 代码编写规格
+|-- .gitignore                                       // git忽略的文件
+|-- data.json                                        // 商家数据文件
+|-- index.html                                       // 入口html文件
+|-- package.json                                     // 项目及工具的依赖配置文件
+|-- prod.server.js                                   // 线上版本server配置
+|-- README.md                                        // 说明
 ```
 
 
