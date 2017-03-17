@@ -81,22 +81,22 @@ node prod.server
 
 # 项目布局
 ```
-|-- build								// webpack配置文件
-|-- config								// 项目打包路径
-|-- dist								// 项目编译打包目录
-|-- resource							// 标注了尺寸的设计图、图标、SVG等文件
-|-- src									// 项目源文件		
-|	|-- common								// 公共库
-|		|-- fonts							// 字体文件
-|		|-- js								// 公共js文件
-|			|-- date.js								// 日期计算模块
-|			|-- store.js             // localStorege处理模块
-|			|-- util.js              // search参数获取组件
-|		|-- sass     				 // 公共样式文件
-|			|-- base.scss            // 基础样式（包括border处理、清浮动）
-|			|-- icon.scss            // 字体图标样式
-|			|-- index.scss           // 公共样式入口文件
-|			|-- mixin.scss           // mixin模块
+|-- build								             // webpack配置文件
+|-- config								           // 项目打包路径
+|-- dist								             // 项目编译打包目录
+|-- resource							           // 标注了尺寸的设计图、图标、SVG等文件
+|-- src									             // 项目源文件		
+|	|-- common							           // 公共库
+|		|-- fonts						             // 字体文件
+|		|-- js							             // 公共js文件
+|			|-- date.js				           	 // 日期计算模块
+|			|-- store.js                   // localStorege处理模块
+|			|-- util.js                    // search参数获取组件
+|		|-- sass     				             // 公共样式文件
+|			|-- base.scss                  // 基础样式（包括border处理、清浮动）
+|			|-- icon.scss                  // 字体图标样式
+|			|-- index.scss                 // 公共样式入口文件
+|			|-- mixin.scss                 // mixin模块
 |   |-- components                   // 组件
 |       |-- cartcontrol              // 商品购买数量控制组件
 |       |-- food                     // 商品详情组件
