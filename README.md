@@ -10,14 +10,6 @@ __注：此项目纯属学习和娱乐，并非商业项目。__
 
 
 
-
-# 效果演示
-
-#### (演示效果为模拟数据，只做展示用，真实效果请下载项目并运行，方可获取真实的官网数据);
-
-[demo地址](http://test.fe.ptdev.cn/elm/)（请用chrome手机模式预览）
-   
-
 # 技术栈
 vue1.0/2.0 + vue-router1.0/2.0 + vue-resource + webpack + ES6 + sass 
 
@@ -81,7 +73,7 @@ node prod.server
 - [x] 商家详情页组件静态部分开发 -- 完成
 - [x] 商家详情页实景图开发 -- 完成
 - [x] 收藏商家功能开发 -- 完成
-- [] 1.0升级2.0
+- [ ] 1.0升级2.0
 
 
 
@@ -146,81 +138,29 @@ node prod.server
 
 # 项目截图
 
-## 城市列表页
+## 商品页
 
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/home.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/home.gif" width="365" height="619"/>
+<img src="https://zzxboy1.github.io/vue-app/resouce/shangpin.jpg" width="350" height="668"/>
 
+## 公告页
 
-## 搜索地址页
+<img src="https://zzxboy1.github.io/vue-app/resouce/bulletin.jpg" width="350" height="668"/>
 
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/city.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/city.gif" width="365" height="619"/>
+## 购物车
 
-
-## 商铺列表页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/msite.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/msite.gif" width="365" height="619"/>
+<img src="https://zzxboy1.github.io/vue-app/resouce/shopCart.jpg" width="350" height="668"/>
 
 
-## 商铺筛选页
+## 评价页
 
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/food.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/food.gif" width="365" height="619"/>
-
-
-## 搜索页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/search.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/search.gif" width="365" height="619"/>
+<img src="https://zzxboy1.github.io/vue-app/resouce/rating.jpg" width="350" height="668"/>
 
 
-## 餐馆食品列表与购物车
+## 商品详情页
 
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shop_cart.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shop_cart.gif" width="365" height="619"/>
-
-
-## 餐馆评论页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/rating.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/rating.gif" width="365" height="619"/>
+<img src="https://zzxboy1.github.io/vue-app/resouce/detail.jpg" width="350" height="668"/>
 
 
-## 食品详情页
+## 商家页
 
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/fooddetail.png" width="365" height="619"/>
-
-
-## 餐馆信息页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shopdetail1.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/shopdetail2.png" width="365" height="619"/>
-
-
-## 登陆页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/login1.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/login2.png" width="365" height="619"/>
-
-## 重置密码页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/reset.png" width="365" height="619"/>
-
-## 个人中心
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/profile.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/profile2.png" width="365" height="619"/>
-
-
-
-## 确认订单页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/confirm1.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/confirmOrder.gif" width="365" height="619"/>
-
-## 订单列表页
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/order.png" width="365" height="619"/>
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/order2.png" width="365" height="619"/>
+<img src="https://zzxboy1.github.io/vue-app/resouce/seller.jpg" width="350" height="668"/>
