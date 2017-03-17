@@ -140,27 +140,27 @@ node prod.server
 
 ## 商品页
 
-<img src="https://zzxboy1.github.io/vue-app/resource/shangpin.jpg" width="325" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/shangpin.jpg" width="375" height="668"/>
 
 ## 公告页
 
-<img src="https://zzxboy1.github.io/vue-app/resource/bulletin.jpg" width="325" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/bulletin.jpg" width="375" height="668"/>
 
 ## 购物车
 
-<img src="https://zzxboy1.github.io/vue-app/resource/shopCart.jpg" width="325" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/shopCart.jpg" width="375" height="668"/>
 
 
 ## 评价页
 
-<img src="https://zzxboy1.github.io/vue-app/resource/rating.jpg" width="325" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/rating.jpg" width="375" height="668"/>
 
 
 ## 商品详情页
 
-<img src="https://zzxboy1.github.io/vue-app/resource/detail.jpg" width="325" height="1040"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/detail.jpg" width="375" height="1040"/>
 
 
 ## 商家页
 
-<img src="https://zzxboy1.github.io/vue-app/resource/seller.jpg" width="325" height="1345"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/seller.jpg" width="375" height="1345"/>
