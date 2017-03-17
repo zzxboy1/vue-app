@@ -153,7 +153,7 @@ node prod.server
 
 ## 评价页
 
-<img src="https://zzxboy1.github.io/vue-app/resource/rating.jpg" width="375" height="668"/>
+<img src="https://zzxboy1.github.io/vue-app/resource/rating.jpg" width="375" height="815"/>
 
 
 ## 商品详情页
