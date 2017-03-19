@@ -11,22 +11,29 @@ import './common/sass/index.scss';
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
-let app = Vue.extend(App);
+const routes = [{
+	path: '/',
+	component: goods
+}, {
+	path: '/goods',
+	component: goods
+}, {
+	path: '/ratings',
+	component: ratings
+}, {
+	path: '/seller',
+	component: seller
+}];
 
 let router = new VueRouter({
-	linkActiveClass: 'active'
+	linkActiveClass: 'active',
+	routes
 });
 
-router.map({
-	'/goods': {
-		component: goods
-	},
-	'/ratings': {
-		component: ratings
-	},
-	'/seller': {
-		component: seller
-	}
+/* eslint-disable no-new */
+new Vue({
+	el: '#app',
+	router,
+	render: h => h(App),
+	components: {App}
 });
-
-router.start(app, '#app');

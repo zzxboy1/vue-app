@@ -1,8 +1,12 @@
 <template>
 	<div class="cartcontrol">
-		<div class="cart-decrease icon-remove_circle_outline" v-show="food.count>0"  @touchend.stop.prevent="decreaseCart" transition="move"></div>
-		<div class="cart-count" v-show="food.count>0">{{food.count}}</div>
-		<div class="cart-add icon-add_circle" @touchend.stop.prevent="addCart"></div>
+		<transition name='move'>
+			<div>
+				<div class="cart-decrease icon-remove_circle_outline" v-show="food.count>0"  @touchend.stop.prevent="decreaseCart"></div>
+				<div class="cart-count" v-show="food.count>0">{{food.count}}</div>
+				<div class="cart-add icon-add_circle" @touchend.stop.prevent="addCart($event)"></div>
+			</div>
+		</transition>
 	</div>
 </template>
 
@@ -21,7 +25,7 @@
 				} else {
 					this.food.count++;
 				}
-				this.$dispatch('cart.add', event.target);
+				this.$emit('add', event.target);
 			},
 			decreaseCart() {
 				if (this.food.count) {
@@ -46,12 +50,12 @@
 		}
 		.cart-decrease{
 			@extend %cart-ad;
-			&.move-transition{
-				transition: all 0.4s linear;
-				opacity: 1;
-				transform: translate3d(0,0,0) rotate(0);
+			opacity: 1;
+			transform: translate3d(0,0,0) rotate(0);
+			&.move-enter-active,&.move-leave-active{
+				transition: all 0.4s linear;		
 			}
-			&.move-enter, &.move-leave{
+			&.move-enter, &.move-leave-to{
 				opacity: 0;
 				transform: translate3d(24px,0,0) rotate(180deg);
 			}

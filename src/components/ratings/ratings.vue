@@ -1,5 +1,5 @@
 <template>
-	<div class="ratings" v-el:ratings>
+	<div class="ratings" ref="ratings">
 		<div class="ratings-content">
 			<div class="overview">
 				<div class="overview-left">
@@ -25,7 +25,7 @@
 				</div>
 			</div>
 			<split></split>
-			<ratingselect :select-type="selectType" :only-content="onlyContent" :desc="desc" :ratings="ratings"></ratingselect>
+			<ratingselect :select-type="selectType" :only-content="onlyContent" :desc="desc" :ratings="ratings" @ratingtypeSelect="ratingtypeSelect" @contentToggle="contentToggle"></ratingselect>
 			<div class="rating-wrapper">
 				<ul>
 					<li v-for="rating in ratings" class="rating-item border-1px" v-show="needShow(rating.rateType,rating.text)">
@@ -80,7 +80,7 @@
 				if (response.errno === 0) {
 					this.ratings = response.data;
 					this.$nextTick(() => {
-						this.scroll = new BScroll(this.$els.ratings, {
+						this.scroll = new BScroll(this.$refs.ratings, {
 							click: true
 						});
 					});
@@ -103,20 +103,6 @@
 				return formatDate(date,'yyyy-MM-dd hh:mm');
 			}
 		},
-		events: {
-			'ratingtype.select'(type) {
-				this.selectType = type;
-				this.$nextTick(() => {
-					this.scroll.refresh();
-				});
-			},
-			'content.toggle'(onlyContent) {
-				this.onlyContent = onlyContent;
-				this.$nextTick(() => {
-					this.scroll.refresh();
-				});
-			}
-		},
 		methods: {
 			needShow(type,text) {
 				if (this.onlyContent && !text) {
@@ -127,6 +113,18 @@
 				} else {
 					return type === this.selectType;
 				}
+			},
+			ratingtypeSelect(type) {
+				this.selectType = type;
+				this.$nextTick(() => {
+					this.scroll.refresh();
+				});
+			},
+			contentToggle() {
+				this.onlyContent = !this.onlyContent;
+				this.$nextTick(() => {
+					this.scroll.refresh();
+				});
 			}
 		}
 	};
